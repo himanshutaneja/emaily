@@ -13,6 +13,8 @@ Oauth2 Authentication using Passport.js
 
 Credit Card purchase using Stripe API
 
+Email Sender using SendGrid with Click tracking
+
 Mongoose library for MongoDB CRUD operation
 
 ## CI/CD through Render.com
