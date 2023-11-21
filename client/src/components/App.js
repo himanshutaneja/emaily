@@ -4,6 +4,8 @@ import Header from "./header";
 import Landing from "./landing";
 import { useDispatch } from "react-redux";
 import { fetchUser } from "../features/authSlice";
+import Dashboard from "./dashboard";
+import SurveyNew from "./survey/surveyNew";
 
 const App = () => {
   const dispatch = useDispatch();
@@ -18,8 +20,8 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Landing />} />
-          <Route path="/surveys" element={<div>Dashboard</div>} />
-          <Route path="/surveys/new" element={<div>Survey New</div>} />
+          <Route path="/surveys" element={<Dashboard />} />
+          <Route path="/surveys/new" element={<SurveyNew />} />
         </Routes>
       </BrowserRouter>
     </div>
