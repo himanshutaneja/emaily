@@ -8,8 +8,11 @@ ReactJS + Redux Toolkit + React Hook Form + Material UI CSS + Icons
 
 ### Back End
 Node Express Server
+
 Oauth2 Authentication using Passport.js
+
 Credit Card purchase using Stripe API
+
 Mongoose library for MongoDB CRUD operation
 
 ## CI/CD through Render.com
